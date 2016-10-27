@@ -6,12 +6,7 @@
 
 QT += core qml
 
-ROOT_DIR = ../..
-
-CONFIG(debug, debug|release): DESTDIR = $${ROOT_DIR}/Output/debug
-CONFIG(release, debug|release): DESTDIR = $${ROOT_DIR}/Output/release
-
-TARGET = top_couchdb
+TARGET = qt-couchdb
 TEMPLATE = lib
 
 CONFIG += staticlib c++11
@@ -31,3 +26,7 @@ SOURCES += \
     couchdbquery.cpp \
     couchdblistener.cpp
 
+DISTFILES += \
+    qt-couchdb-client.pri \
+    LICENCE \
+    README.md
