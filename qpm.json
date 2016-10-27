@@ -1,0 +1,22 @@
+{
+  "name": "net.huffduff.couchdb",
+  "description": "",
+  "author": {
+    "name": "TommyO",
+    "email": "tworeilly@gmail.com"
+  },
+  "repository": {
+    "type": "GITHUB",
+    "url": "https://github.com/TommyO/qt-couchdb.git"
+  },
+  "version": {
+    "label": "0.0.1",
+    "revision": "",
+    "fingerprint": ""
+  },
+  "dependencies": [
+  ],
+  "license": "MIT",
+  "pri_filename": "qt-couchdb.pri",
+  "webpage": ""
+}

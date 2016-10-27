@@ -1,0 +1,6 @@
+
+<RCC>
+    <qresource prefix="/net/huffduff/couchdb">
+        <file>qmldir</file>
+    </qresource>
+</RCC>

@@ -1,6 +1,3 @@
-INCLUDEPATH += \
-    $$PWD
 
-LIBS += \
-    -L../qt-couchdb -lqt-couchdb
-    
+RESOURCES += \
+    $$PWD/net_huffduff_couchdb.qrc
