@@ -19,5 +19,5 @@ SOURCES += \
     $$PWD/couchdblistener.cpp
 
 OTHER_FILES += \
-    $$PWD/LICENCE \
+    $$PWD/LICENSE \
     $$PWD/README.md
